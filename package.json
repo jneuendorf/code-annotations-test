@@ -1,0 +1,32 @@
+{
+    "name": "code-annotations-test",
+    "description": "An test plugin for the atom package code-annotations",
+    "main": "./lib/main",
+    "version": "1.0.0",
+    "keywords": [],
+    "author": {
+        "name": "Jim Neuendorf",
+        "url": "https://github.com/jneuendorf"
+    },
+    "activationCommands": {},
+    "repository": "https://github.com/jneuendorf/code-annotations-test",
+    "bugs": "https://github.com/jneuendorf/code-annotations-test/issues",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "consumedServices": {
+        "assetRendererClass": {
+            "versions": {
+                "1.0.0": "consumeAssetRendererClass"
+            }
+        }
+    },
+    "providedServices": {
+        "renderer": {
+            "versions": {
+                "1.0.0": "provideRenderer"
+            }
+        }
+    }
+}
