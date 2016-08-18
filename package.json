@@ -15,13 +15,6 @@
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
     },
-    "consumedServices": {
-        "assetRendererClass": {
-            "versions": {
-                "1.0.0": "consumeAssetRendererClass"
-            }
-        }
-    },
     "providedServices": {
         "renderer": {
             "versions": {
